@@ -13,6 +13,7 @@ import GenerateBankLinks from './Bank_System/GenerateBankLinks';
 import SignUp_WB from './Bank_System/SignUp_WB';
 import UseCrypto from './PayMe-X/UseCrypto';
 import ConvertCrypto from './PayMe-X/ConvertCrypto';
+import React from 'react';
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
