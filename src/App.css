@@ -1,3 +1,8 @@
+* {
+  background-color: black;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.custom-button {
+  margin: 10px;
+  background-color: #61dafb;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+  background-color: #21a1f1;
+}
+
+.custom-input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+}
+
+.custom-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #20232a;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, 0.2);
+}
+
+.login-menu-container {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #20232a;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, 0.2);
+}
+
+.login-menu-container h1 {
+  color: #61dafb;
+}
+
+.login-menu-container button {
+  margin: 10px;
+  background-color: #61dafb;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-menu-container button:hover {
+  background-color: #21a1f1;
 }

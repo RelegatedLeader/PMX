@@ -1,0 +1,59 @@
+.generate-bank-links-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #20232a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.generate-bank-links-container h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.generate-bank-links-container h3 {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.generate-bank-links-container label {
+  font-weight: bold;
+}
+
+.generate-bank-links-container input {
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.generate-bank-links-container button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.generate-bank-links-container button:hover {
+  background-color: #0056b3;
+}
+
+.generate-bank-links-container h5 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.generate-bank-links-container a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.generate-bank-links-container button.copy-button {
+  margin-left: 10px;
+}

@@ -1,0 +1,18 @@
+/* PayMeXApp.css */
+
+.paymex-app-container {
+  margin-top: 50px;
+}
+
+.card-header {
+  background-color: #282c34;
+  color: white;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+}
+
+.card-text {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,38 @@
+.bank-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #20232a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bank-container h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.bank-container h3 {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.bank-container button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bank-container button:hover {
+  background-color: #0056b3;
+}
+
+.bank-container a {
+  text-decoration: none;
+  color: inherit;
+}
