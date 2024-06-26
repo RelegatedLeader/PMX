@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Container, Form, Button, Row, Col, Alert } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/Login.css'; // Assuming you'll create a CSS file for custom styles
 
 export default function Login({ onLogin }) {
-  const [email_value, set_email_value] = useState('');
-  const [passwordValue, setPasswordValue] = useState('');
+  // const [email_value, set_email_value] = useState('');
+  // const [passwordValue, setPasswordValue] = useState('');
   const [securityWords, setSecurityWords] = useState(Array(8).fill(''));
   const [loginSuccessful, setLoginSuccessful] = useState(false);
   const [loginMessage, setLoginMessage] = useState('');

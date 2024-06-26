@@ -5,9 +5,9 @@ import LinkBank from './Login_Menu/LinkBank';
 import Login from './Login_Menu/Login';
 import SignUp from './Login_Menu/SignUp';
 import RandomWordsPage from './Login_Menu/RandomWordsPage';
-import PayMe_X from './PayMe-X/PayMex_app';
+// import PayMe_X from './PayMe-X/PayMex_app';
 import PayMe_X_app from './PayMe-X/PayMex_app';
-import { useState } from 'react';
+//import { useState } from 'react';
 import Bank from './Bank_System/Bank';
 import GenerateBankLinks from './Bank_System/GenerateBankLinks';
 import SignUp_WB from './Bank_System/SignUp_WB';
@@ -16,11 +16,11 @@ import ConvertCrypto from './PayMe-X/ConvertCrypto';
 import React from 'react';
 
 function App() {
-  const [currentUser, setCurrentUser] = useState(null);
+  /** const [currentUser, setCurrentUser] = useState(null);
 
   const handleLogin = (user) => {
     setCurrentUser(user);
-  };
+  }; */
 
   return (
     <div className='App'>
