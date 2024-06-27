@@ -11,15 +11,8 @@ export default function SignUp_WB() {
   const [email, set_email] = useState('');
   const [password, set_password] = useState('');
   const [same_password, set_same_password] = useState('');
-  // const [first_time, set_first_time] = useState(false); // allows the user to have cash ready to be traded
   const sign_up_bonus = 100;
   const currCash = sign_up_bonus;
-
-  let first_time = false; //needs to be used
-
-  function set_first_time() {
-    first_time = true;
-  }
 
   // Fetch data from location.state
   useEffect(() => {
@@ -54,8 +47,6 @@ export default function SignUp_WB() {
       alert('That email is already registered...');
       return;
     } else {
-      // The user is created, let's make it first time --> true
-      set_first_time(true);
       // Add the new user to local storage
       users.push({
         first_name,
