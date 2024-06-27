@@ -15,6 +15,8 @@ export default function SignUp_WB() {
   const sign_up_bonus = 100;
   const currCash = sign_up_bonus;
 
+  first_time = false; //needs to be used
+
   // Fetch data from location.state
   useEffect(() => {
     if (location.state) {
